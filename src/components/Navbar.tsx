@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
     <header className='fixed w-full'>
-      <div className='divide-y divide-zinc-800 bg-zinc-900 sm:flex sm:items-center sm:justify-between sm:divide-y-0 sm:px-4 sm:py-3'>
+      <div className='z-50 divide-y  divide-zinc-800 sm:flex sm:items-center sm:justify-between sm:divide-y-0 sm:px-4 sm:py-3'>
         <div className='flex items-center justify-between  px-4 py-3 sm:p-0'>
           <Link
             className={`text-2xl ${pacifico.className} sm:text-3xl`}
@@ -42,7 +42,7 @@ export const Navbar = () => {
           } flex-col items-center text-lg text-gray-400 sm:flex sm:flex-row sm:gap-10`}
         >
           <Link
-            className='w-full py-1 text-center hover:bg-zinc-800 hover:text-sky-500 sm:hover:bg-inherit'
+            className='w-full bg-zinc-950 py-1 text-center hover:bg-zinc-800 hover:text-sky-500 sm:hover:bg-inherit'
             href='/'
             onClick={() => setOpen(false)}
           >
@@ -50,14 +50,14 @@ export const Navbar = () => {
           </Link>
 
           <Link
-            className='w-full py-1 text-center hover:bg-zinc-800 hover:text-sky-500 sm:hover:bg-inherit'
+            className='w-full bg-zinc-950 py-1 text-center hover:bg-zinc-800 hover:text-sky-500 sm:hover:bg-inherit'
             href='/services'
             onClick={() => setOpen(false)}
           >
             SERVICES
           </Link>
           <Link
-            className='w-full  py-1 text-center hover:bg-zinc-800 hover:text-sky-500 sm:hover:bg-inherit'
+            className='w-full bg-zinc-950  py-1 text-center hover:bg-zinc-800 hover:text-sky-500 sm:hover:bg-inherit'
             href='/about'
             onClick={() => setOpen(false)}
           >
