@@ -8,7 +8,7 @@ import React, { useState } from 'react'
 export const Navbar = () => {
   const [open, setOpen] = useState(false)
   return (
-    <header className='fixed w-full'>
+    <header className='fixed w-full bg-zinc-950'>
       <div className='z-50 divide-y  divide-zinc-800 sm:flex sm:items-center sm:justify-between sm:divide-y-0 sm:px-4 sm:py-3'>
         <div className='flex items-center justify-between  px-4 py-3 sm:p-0'>
           <Link
