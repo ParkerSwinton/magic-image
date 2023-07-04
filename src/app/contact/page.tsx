@@ -6,14 +6,14 @@ export default function Home() {
     <main className='flex min-h-screen flex-col items-center px-12 pt-20'>
       <div className='flex flex-col gap-4'>
         <h1 className='whitespace-nowrap text-3xl font-extrabold tracking-wide text-zinc-50 sm:text-4xl'>
-          We'd love to hear
+          {`We'd love to hear`}
           <br />
           from you!
         </h1>
         <h2 className='whitespace-nowrap text-lg font-bold text-zinc-400 sm:text-xl'>
           Ready for your dream car? Any
           <br />
-          more questions? Don't hesitate to
+          {`more questions? Don't hesitate to`}
           <br />
           reach out.
         </h2>

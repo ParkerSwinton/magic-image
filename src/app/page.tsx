@@ -7,7 +7,7 @@ export default function Home() {
       <div className='flex w-min flex-col gap-2 sm:gap-4'>
         <h1 className='whitespace-nowrap text-4xl font-extrabold tracking-wide text-zinc-50 sm:text-6xl'>
           Love your car <br />
-          like it's brand
+          {`like it's brand`}
           <br />
           new again.
         </h1>
