@@ -1,7 +1,5 @@
-'use client'
 import { AccordionItem } from '@/components/AccordionItem'
 import { faqData } from '@/utils/faq'
-import Image from 'next/image'
 
 export default function Home() {
   return (

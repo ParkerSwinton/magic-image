@@ -1,4 +1,3 @@
-import Image from 'next/image'
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai'
 
 export default function Home() {
